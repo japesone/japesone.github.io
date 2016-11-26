@@ -30,7 +30,7 @@ $(window).load(function() { // jquery 2
     console.log(arrayData);
 
     $('.motionchart').motionchart({
-  					title: "US Housing Price Index",
+  					title: "SOTE-menoennuste 2015-2040,
   					'data': arrayData,
   					mappings: {key: 1, x: 2, y: 3, size: 5, color: 4, category: 0},
   					colorPalette: {	"Blue-Red": {from: "rgb(0,0,255)", to: "rgb(255,0,0)"}},
