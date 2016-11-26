@@ -25,12 +25,12 @@ $(window).load(function() { // jquery 2
   }
 
 
-  $.get("./data.csv", function(data){
+  $.get("./data2.csv", function(data){
     var arrayData = stringToArrayData(data);
     console.log(arrayData);
 
     $('.motionchart').motionchart({
-  					title: "SOTE-menoennuste 2015-2040,
+  					title: "Dependency ratio vs healthcare costs by hospital district",
   					'data': arrayData,
   					mappings: {key: 1, x: 2, y: 3, size: 5, color: 4, category: 0},
   					colorPalette: {	"Blue-Red": {from: "rgb(0,0,255)", to: "rgb(255,0,0)"}},
